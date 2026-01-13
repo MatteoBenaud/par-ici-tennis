@@ -1,7 +1,6 @@
 name: Tennis booking
 
 on:
-  workflow_dispatch:
   schedule:
     # GitHub uses UTC; schedule at 06:00 and 07:00 UTC.
     # A guard step will ensure we only run when it's 08:00 in Europe/Paris.
